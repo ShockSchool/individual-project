@@ -1,8 +1,28 @@
 body {
-	background-color: #ed8779;
+	background-image: linear-gradient(#7d6aeb, #ae94e0)
+;
 }
 
+/*nav {
+	background-color: #7d6aeb;
+}*/
+
 #mainHeading {
-	margin: 200px;
-	background-color: #f5d2a6;
+	margin: 100px;
+	padding: 100px;
+	background-color: #f79f8f;
+}
+
+#information .card {
+		background-color: #ff739a;
+}
+
+#affirmations .row {
+	padding: 50px;
+/*	border: solid 2px black;*/
+}
+
+#resources .card {
+	margin: 50px;
+
 }
