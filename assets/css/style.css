@@ -1,5 +1,5 @@
 body {
-	background-image: linear-gradient(#7d6aeb, #ae94e0)
+	background-image: linear-gradient(#7d6aeb, #f7b2ed)
 ;
 }
 
@@ -8,21 +8,32 @@ body {
 }*/
 
 #mainHeading {
-	margin: 100px;
-	padding: 100px;
-	background-color: #f79f8f;
+	margin-left: 150px;
+	padding: 210px 0px 130px 70px;
+	background-image: url("../images/cloudBig.png");
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 2px 2px #7d6aeb;
+
 }
 
 #information .card {
 		background-color: #ff739a;
+		margin: 5px 0px;
 }
 
 #affirmations .row {
-	padding: 50px;
-/*	border: solid 2px black;*/
-}
-
-#resources .card {
-	margin: 50px;
+	margin: 10px;
 
 }
+
+.affirmation {	
+	padding: 20px;
+	margin: 20px;
+	background-color: white;
+}
+
+#resources .col {
+	margin: 5px 40px;
+}
+
