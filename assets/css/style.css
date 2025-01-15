@@ -19,22 +19,40 @@ body {
 }
 
 #information .card {
-	background-color: #ff739a;
+	color: white;
+	background-color: #d07f9c;
 	margin: 5px 0px;
+	border: 2px solid #b46da9;
 }
 
-#affirmations .row {
-	margin: 10px;
+#information .accordion-button, .accordion-collapse {
+	color: white;
+	background-color: #b46da9;
+}
 
+#affirmations {
+	padding: 10px 230px;
 }
 
 .affirmation {	
 	padding: 20px;
-	margin: 20px;
+	margin: 10px;
 	background-color: white;
 }
 
 #resources .col {
-	margin: 5px 40px;
+	margin: 20px 40px;
 }
 
+/*#resources .card {
+	max-width: 200px;
+}*/
+
+footer {
+	background-image: linear-gradient(#3d409c, #7157c9);
+	padding: 20px;
+}
+
+.alignRight {
+	text-align: right;
+}
