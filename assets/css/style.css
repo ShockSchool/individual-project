@@ -1,12 +1,11 @@
 /* CSS Variables */
 :root {
 	--cloud1: #fdd5b2; /* light orange */
-	--cloud2: #fabba3;
-	--cloud3: #f5a698;
-	--cloud4: #f0938e;
-	--cloud5: #d97b88;
-	--cloud6: #d07f9c;
-	--cloud7: #b46da9; /* dusky purple */
+	--cloud2: #f9bca4;
+	--cloud3: #f3a597;
+	--cloud4: #ed9590;
+	--cloud5: #d68296;
+	--cloud6: #b46da9; /* dusky purple */
 	--dark1: #3d409c; 
 	--dark2: #7157c9; /* dark purple */
 	--sky1: #7d6aeb; /* light purple */
@@ -45,22 +44,35 @@ body {
 	text-shadow: 1px 1px white;
 }
 
-#information .accordion-button, .accordion-collapse {
+#information .accordion-button{
 	color: white;
 	background-color: var(--cloud3);
 }
 
+#information .accordion-collapse {
+	color: white;
+	background-color: var(--cloud5);
+}
+
 #affirmations {
-	padding: 10px 230px;
+	padding: 5px 20px;
 }
 
 .affirmation {	
-	padding: 20px;
-	margin: 10px;
+	padding: 70px 110px;
+/*	margin: 10px;*/
 /*	background-color: var(--cloud4);*/
 	background-image: url("../images/cloudSmall.png");
 	background-repeat: no-repeat;
 	background-position-x: center;
+/*	border: 2px solid black;*/
+}
+
+.affirmation p {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	color: white;
+	background-color: #7157c980;
 }
 
 #resources .col {
@@ -73,7 +85,7 @@ body {
 
 #resources .btn {
 	color: white;
-	background-color: var(--cloud7);
+	background-color: var(--cloud6);
 }
 
 footer {
